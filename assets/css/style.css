@@ -167,26 +167,17 @@ input[type=reset] {
 }
 
 /* Style Changes for responsive @media queries */
-/* My basic portfolio honestly does not have enough
-   content to support 3 screensize breaks and will 
-   only lead to confusion (for me).  Best for me is
-   to break on the medium size and stack elements at
-   that size (on down).  Nothing new to learn from 
-   the added complexity at this point.  I would need
-   to add elements to the portfolio which we've already
-   built numerous times and is not the real point of
-   this homework.  Anyway, media-query is pretty cool!
-   I understand the specificity of first->last cascade,
-   and the pitfalls that could ensue if multiple queries
-   are used the order would be critical as well as whether
-   min or max screen width is specified.
- */
 
 @media screen and (max-width: 768px) {
 
 .all {
     width: 100%;
 }
+
+nav li {
+    margin-left: 25px;
+}
+
 .headstone {
     float: none;
     /* width: 100%; */
